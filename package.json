@@ -1,0 +1,26 @@
+{
+  "name": "mathjax-xalign",
+  "main": "./xalign.js",
+  "version": "1.0.0",
+  "description": "xalignat, xxalignat, flalign environments from amsmath for MathJax's TeX input",
+  "keywords": [
+    "MathJax",
+    "TeX",
+    "amsmath"
+  ],
+  "license": "Apache-2.0",
+  "contributors": [
+    "Peter Krautzberger (https://github.com/pkra)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AmerMathSoc/mathjax-xalign"
+  },
+  "homepage": "https://github.com/AmerMathSoc/mathjax-xalign/",
+  "bugs": {
+    "url": "https://github.com/AmerMathSoc/mathjax-xalign/issues"
+  },
+  "scripts": {
+    "test": "echo 'No tests yet'"
+  }
+}
