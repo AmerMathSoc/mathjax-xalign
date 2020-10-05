@@ -15,16 +15,16 @@
  */
 
 
-import {ArrayItem} from '../base/BaseItems.js';
-import {StackItem} from '../StackItem.js';
-import ParseUtil from '../ParseUtil.js';
-import ParseMethods from '../ParseMethods.js';
-import {Configuration} from '../Configuration.js';
-import {ParseMethod} from '../Types.js';
-import TexParser from '../TexParser.js';
-import TexError from '../TexError.js';
-import {MmlNode} from '../../../core/MmlTree/MmlNode.js';
-import {EnvironmentMap} from '../SymbolMap.js';
+import {ArrayItem} from 'mathjax-full/js/input/tex/base/BaseItems';
+import {StackItem} from 'mathjax-full/js/input/tex//StackItem';
+import ParseUtil from 'mathjax-full/js/input/tex/ParseUtil';
+import ParseMethods from 'mathjax-full/js/input/tex/ParseMethods';
+import {Configuration} from 'mathjax-full/js/input/tex/Configuration';
+import {ParseMethod} from 'mathjax-full/js/input/tex/Types';
+import TexParser from 'mathjax-full/js/input/tex/TexParser';
+import TexError from 'mathjax-full/js/input/tex/TexError';
+import {MmlNode} from 'mathjax-full/js/core/MmlTree/MmlNode';
+import {EnvironmentMap} from 'mathjax-full/js/input/tex/SymbolMap';
 
 
 export class XalignArrayItem extends ArrayItem {
