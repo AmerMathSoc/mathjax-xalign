@@ -80,7 +80,6 @@ var XalignArrayItem = (function (_super) {
 exports.XalignArrayItem = XalignArrayItem;
 var XalignMethods = {};
 XalignMethods.XalignAt = function (parser, begin, numbered, padded) {
-    console.log(begin);
     var arg = parser.GetArgument('\\begin{' + begin.getName() + '}');
     if (arg.match(/[^0-9]/)) {
         throw new TexError_1.default('PositiveIntegerArg', 'Argument to %1 must me a positive integer', '\\begin{' + begin.getName() + '}');
@@ -104,8 +103,6 @@ XalignMethods.XalignAt = function (parser, begin, numbered, padded) {
     return XalignMethods.XalignArray(parser, begin, numbered, padded, false, align.join('c'), width.join(' fit '));
 };
 XalignMethods.XalignArray = function (parser, begin, numbered, padded, center, align, width) {
-    console.log('Width!');
-    console.log(width);
     parser.Push(begin);
     ParseUtil_1.default.checkEqnEnv(parser);
     align = align
