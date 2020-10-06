@@ -1,7 +1,7 @@
 {
   "name": "mathjax-xalign",
   "main": "./js/xalign.js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "xalignat, xxalignat, flalign environments from amsmath for MathJax's TeX input",
   "keywords": [
     "MathJax",
