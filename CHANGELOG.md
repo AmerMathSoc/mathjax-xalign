@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/AmerMathSoc/mathjax-xalign/compare/v2.0.0...v2.0.1) (2020-10-06)
+
+
+### Bug Fixes
+
+* bump build ([d60b93a](https://github.com/AmerMathSoc/mathjax-xalign/commit/d60b93aa0f8dfafe7e254bf5349fed4001f0e3e1))
+
 ## 2.0.0 (2020-10-06)
 
 
