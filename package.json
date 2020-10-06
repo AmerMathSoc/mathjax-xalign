@@ -21,10 +21,12 @@
     "url": "https://github.com/AmerMathSoc/mathjax-xalign/issues"
   },
   "scripts": {
+    "release": "standard-version",
     "test": "echo 'No tests yet'"
   },
   "devDependencies": {
     "mathjax-full": "^3.1.2",
+    "standard-version": "^9.0.0",
     "typescript": "^3.9.7"
   }
 }
